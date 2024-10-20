@@ -27,10 +27,8 @@ module.exports = {
         .setName('support')
         .setDescription('Support server of this Bot'),
     async execute(interaction) {
-        const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-        const githubLink = "https://github.com/GlaceYT";
-        const replitLink = "https://replit.com/@GlaceYT";
-        const youtubeLink = "https://www.youtube.com/@GlaceYT";
+        const supportServerLink = "https://discord.gg/rapidfire-corporation";
+        const youtubeLink = "https://www.youtube.com/watch?v=Tib93X9T77s";
 
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
@@ -39,8 +37,8 @@ module.exports = {
                 iconURL: Icons.dotIcon,
                 url: 'https://discord.gg/xQF9f9yUEM'
             })
-            .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://cdn.discordapp.com/attachments/1264134884432285766/1293631187730038885/GlaceYT.gif?ex=6708136d&is=6706c1ed&hm=45c799968ea8269c7d9e77fc4c1dd41f793cd56808d206a496354bf84be434fb&')
+            .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- YouTube - ${youtubeLink}`)
+            .setImage('https://media.discordapp.net/attachments/1290903467228925972/1297436039400525824/R5.png?ex=6715eaf8&is=67149978&hm=041c3ea0a1c858a20ba33c2710fe94925ddd5f50b1bb445b489cd883b8703e09&34fb&')
             .setTimestamp();
 
         await interaction.reply({ embeds: [embed] });
