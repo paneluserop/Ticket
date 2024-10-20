@@ -21,7 +21,7 @@
 
 
 module.exports = {
-    token: 'MTI5NzQ1NTI3NzI3MjA3MjIzMw.GSswWS.SiyyG5jwxewTDgRK-7EGBxxAs6ivK78kEaoVOE',
+    token: '1297455277272072233',
     guildId: '1283668602733465630',
     mongodbURI: 'mongodb+srv://Abhijeet:Abhijeet2010@rapid-king.esp21.mongodb.net/?retryWrites=true&w=majority&appName=Rapid-King'
 };
